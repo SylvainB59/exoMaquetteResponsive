@@ -34,8 +34,31 @@ header{
 	top: 0;
 }
 
+.menu li:hover{
+	background-color: #62bfe6;
+}
+
+/*main*/
+/*carousel*/
+.ccText{
+	left: 65%;
+	bottom: 0;
+}
+
+.ccText h2{
+	font-size: 4vw;
+}
+
 /****************************************************************/
 @media (min-width: 768px){
+	/*main*/
+	/*carousel*/
+	.ccText{
+		bottom: 20%;
+	}
+	.ccText h2{
+		font-size: 3vw;
+	}
 
 }
 
@@ -54,5 +77,15 @@ header{
 		position: -webkit-sticky;
 		position: sticky;
 		background: #343a40;
+	}
+
+	/*main*/
+	/*carousel*/
+	.ccText{
+		bottom: 40%;
+	}
+
+	.ccText h2{
+		font-size: 1.5vw;
 	}
 }
