@@ -1,0 +1,58 @@
+.bg-main{
+	background-color: #62bfe6;
+}
+
+.bg-pub{
+	background: linear-gradient(to right, #ff534f, #ffb001);
+}
+
+.c-main{
+	color: #62bfe6;
+}
+
+.btn-main{
+	background-color: #62bfe6;
+	border-color: #62bfe6;
+	color: #fff;
+	border-radius: 0;
+	font-weight: bold; 
+}
+
+/*header*/
+header{
+	position: -webkit-sticky;
+	position: sticky;
+	top:0;
+}
+
+.fa-phone{
+	transform: scaleX(-1);
+}
+
+.menu{
+	position: fixed;
+	top: 0;
+}
+
+/****************************************************************/
+@media (min-width: 768px){
+
+}
+
+/****************************************************************/
+@media (min-width: 992px){
+	/*header*/
+	header{
+		position: initial;
+	}
+
+	.pubtop li{
+		font-size: 0.9rem;
+	}
+
+	.menu{
+		position: -webkit-sticky;
+		position: sticky;
+		background: #343a40;
+	}
+}
